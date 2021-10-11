@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Catamaran', sans-serif;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    font-size:20px;
+    color:#fff;
+}
+#header{
+    /*background-color:#29b6f6;*/
+    background-color:#b0bec5;
+}
+#linija{
+    width:100%;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+}
+@media screen and (max-width:768px){
+    #meni{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+}
+.bmw{
+    background-image:url('../img/bmw.jpg');
+    background-size:cover;
+
+    height:400px;
+    background-attachment: fixed;
+}
+.p{
+    padding: 20px;
+}
+.s{
+    color:#000;
+}
+#footer{
+    background-color:#b0bec5;
+    min-height: 200px;
+}
+.footer-lista{
+    padding: 5px 0px;
+}
+i{
+    padding:0px 5px;
+    font-size:20px;
+}
+.is{
+    font-size:30px;
+}
+.kartica{
+    display:none;
+}
+@media screen and (max-width:557px){
+    .tabela{display: none;}
+    .kartica{display:block;margin:0px auto;}
+}
+.mapa iframe{
+    width:100%;
+    height:500px;
+}
+.dugme{
+    margin: 5px auto !important;
+}
+#header2{
+    background-color:#b0bec5;
+    min-height: 100px;
+    display:flex;
+    align-items: center;
+}
+.sA{
+    border:3px solid #b0bec5;
+    margin:5% auto;
+}
+@media screen and (max-width:993px){
+.pozicija{
+    position: relative;
+    left:20% !important;
+}
+}
+@media screen and (max-width:600px){
+    .pozicija{
+        position: relative;
+        left:13% !important;
+    }
+    }
+#footer2{
+    background-color:#b0bec5;
+    min-height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}    
